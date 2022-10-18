@@ -1,0 +1,314 @@
+body { 
+    margin: 0px; 
+    padding: 0px;
+    background: white;
+    height: auto;
+}
+
+
+.navbar { 
+    width: 95%;
+    height: 75px;
+    margin: auto;
+}
+
+header { 
+    background-color: #35693D;
+}
+
+.navbar nav { 
+    float: right;
+}
+
+.navbar nav ul { 
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar nav li { 
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.navbar nav a { 
+    color: white; 
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.navbar nav a:hover { 
+    cursor: pointer;
+}
+
+.logo { 
+    height: 35px;
+    padding-top: 20px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#welcome { 
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.welcome-card img {
+    opacity: 40%;
+    width: 100%;
+    height: 650px;
+}
+
+.menu-button { 
+    position: absolute; 
+    height: 45px;
+    width: 125px;
+    top: 66%; 
+    left: 46%; 
+    background-color: #C15656; 
+    box-shadow: 0px 0.5px 3px black;
+    text-align: center;
+}
+
+.menu-text { 
+    color: white;
+    font-family: Lato;
+    font-size: 1.25vw;
+    font-weight: bold;
+    padding-top: 10px; 
+    text-decoration: none;
+}
+
+.welcome-text { 
+    position: absolute; 
+    color: white;
+    font-family: Oswald;
+    font-size: 8vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold; 
+    text-shadow: 0px 0.5px 3px black;
+}
+
+#delivery { 
+    background-color: #C15656; 
+    height: 50px;
+    text-align: center; 
+    margin: 0px;
+}
+
+#delivery h2 { 
+    padding: 10px;
+    color: white; 
+    font-family: Lato; 
+    font-size: large;
+    display: inline-block; 
+    padding: 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#best-of-berkeley { 
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.best-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-container img { 
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    height: 500px;
+    width: 700px;
+}
+
+.best-text { 
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+} 
+
+.best-text h2 { 
+    color: black;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.best-text p { 
+    color: black;
+    font-family: Lato;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+#catering-info { 
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.catering-container { 
+    background-color: #FAF0E6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.catering-container img { 
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    height: 500px;
+    width: 700px;
+}
+
+.catering-text { 
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+} 
+
+.catering-text h2 { 
+    color: black;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.catering-text p { 
+    color: black;
+    font-family: Lato;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.catering-button { 
+    margin-top: 35px;
+    margin-left: 450px;
+    height: 45px;
+    width: 200px;
+    background-color: #C15656; 
+    box-shadow: 0px 0.5px 3px black;
+    text-align: center;
+    float: right;
+
+}
+
+.explore-catering { 
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 1vw;
+    font-weight: bold;
+    padding-top: 13px; 
+    text-decoration: none;
+}
+
+#food-pictures {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.picture-container { 
+    display: flex;
+    flex-direction: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-container img { 
+    width: 30%; 
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+.store-info { 
+    background-color: #C15656;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    color: white;
+}
+
+.quick-links { 
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.quick-links h3 {
+    font-family: Oswald;
+}
+.quick-links a{ 
+    font-family: Lato;
+    color: white; 
+    text-decoration: none;
+}
+
+.hours { 
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.hours h3 {
+    font-family: Oswald;
+}
+.hours a{ 
+    font-family: Lato;
+    color: white; 
+}
+
+.contact-us {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-us h3 {
+    font-family: Oswald;
+}
+
+.contact-us a{ 
+    font-family: Lato;
+    color: white; 
+}

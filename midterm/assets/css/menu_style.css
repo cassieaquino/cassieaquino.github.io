@@ -1,0 +1,282 @@
+body { 
+    margin: 0px; 
+    padding: 0px;
+    background: white;
+    height: auto;
+}
+
+
+.navbar { 
+    width: 95%;
+    height: 75px;
+    margin: auto;
+}
+
+header { 
+    background-color: #35693D;
+}
+
+.navbar nav { 
+    float: right;
+}
+
+.navbar nav ul { 
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar nav li { 
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.navbar nav a { 
+    color: white; 
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.navbar nav a:hover { 
+    cursor: pointer;
+}
+
+.logo { 
+    height: 35px;
+    padding-top: 20px
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#menu-title {
+    width: 100%;
+    margin: 0;
+}
+
+.title { 
+    text-align: center;
+    padding: 0;
+}
+
+.title h1 { 
+    font-family: Oswald;
+    font-size: 8vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title h3 { 
+    margin-top: 0;
+    font-family: Lato;
+    margin-bottom: 25px;
+}
+
+h2 { 
+    font-family: Oswald;
+    font-size: xx-large;
+}
+
+h3 { 
+    font-family: Oswald; 
+    font-size: x-large;
+}
+
+h4 { 
+    font-family: Lato; 
+}
+
+p { 
+    font-family: Lato;
+}
+
+.meals {
+    width: 100%; 
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#combo-deal{ 
+    width: 100%;
+}
+
+.combo-container {
+    background-color: #C15656;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.combo-container h3 { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.combo-container h2 {
+    margin: 0px;
+    padding-top: 6px;
+}
+
+.combo-container p { 
+    margin: 0px; 
+    padding-bottom: 15px;
+}
+
+
+.menu-container { 
+    background-color: #FAF0E6;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+}
+
+.menu-container h2 { 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.menu-container img {
+    height: 50px; 
+    width: 50px; 
+    margin-left: 175px;
+    margin-bottom: 15px;
+}
+
+.menu-container img:hover { 
+    cursor: pointer;
+}
+
+.first-item { 
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-top: 0px; 
+    padding-bottom: 5px;  
+}
+
+.second-item { 
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-top: 0px; 
+    padding-bottom: 5px;  
+}
+
+.third-item { 
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-top: 0px; 
+    padding-bottom: 10px;  
+}
+
+.name-price h3, .name-price h4{ 
+    display: inline-block; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.name-price p { 
+    margin: 0px; 
+    padding: 0px;
+}
+
+h4 { 
+    color: #C15656
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.store-info { 
+    background-color: #C15656;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    color: white;
+    margin-top: 50px;
+}
+
+.quick-links { 
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.quick-links h3 {
+    font-family: Oswald;
+}
+.quick-links a{ 
+    font-family: Lato;
+    color: white; 
+    text-decoration: none;
+}
+
+.hours { 
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.hours h3 {
+    font-family: Oswald;
+}
+.hours a{ 
+    font-family: Lato;
+    color: white; 
+}
+
+.contact-us {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-us h3 {
+    font-family: Oswald;
+}
+
+.contact-us a{ 
+    font-family: Lato;
+    color: white; 
+}
