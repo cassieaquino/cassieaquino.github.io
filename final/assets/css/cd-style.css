@@ -1,0 +1,271 @@
+body { 
+    width: 100%;
+    background-color: #EBE3D6;
+    padding: 10px;
+    margin: 0px; 
+    height: 700px;
+}
+
+.title { 
+    margin: 20px;
+}
+
+#home { 
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 35px; 
+    color: #222016;
+}
+
+.cd-container { 
+    position: relative;
+    width: 693px;
+    height: 649px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#cd { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    transform-style: preserve-3d; 
+    transition: all 0.8s ease;
+}
+
+#cd:hover { 
+    cursor: pointer;
+}
+
+#front-cover { 
+    width: 693px; 
+    height: 649px;
+}
+
+#front { 
+    text-align: center;
+    position: absolute; 
+    backface-visibility: hidden;
+    width: 100%; 
+    height: 100%;
+}
+
+#front-cover:hover { 
+    cursor: pointer;
+}
+
+.flipCD { 
+    transform: rotateY(180deg);
+}
+
+/* night changes **/
+
+#nc-album-title { 
+    background-color: rgb(85, 85, 85);
+    padding: 10px;
+    position: absolute; 
+    top: 20%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Covered By Your Grace;
+    color: #F5F5F5;
+    opacity: 90%
+} 
+
+#nc-album-title:hover { 
+    cursor: pointer;
+}
+
+#nc-back { 
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #C99063;
+}
+
+#nc-back ul { 
+    list-style: none;
+}
+
+#nc-back li {
+    margin-top: 30px;
+}
+
+#nc-back a:hover { 
+    text-decoration: underline;
+}
+
+#nc-back a { 
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: Covered By Your Grace;
+    font-size: 30px;
+}
+
+/* we are young **/
+
+#way-album-title { 
+    background-color: rgb(85, 85, 85);
+    padding: 10px;
+    position: absolute; 
+    top: 14%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Oswald;
+    color: #F5F5F5;
+    opacity: 90%
+} 
+
+#way-album-title:hover { 
+    cursor: pointer;
+}
+
+#way-back { 
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #242424;
+    opacity: 75%;
+}
+
+#way-back ul { 
+    list-style: none;
+}
+
+#way-back li {
+    margin-top: 27px;
+}
+
+#way-back a:hover { 
+    text-decoration: underline;
+}
+
+#way-back a { 
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 27px;
+}
+
+/* the nights **/
+
+#tn-coming-soon { 
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #983A3A;
+    opacity: 75%;
+}
+
+#tn-text { 
+    position: absolute;
+    font-family: Nothing You Could Do;
+    font-weight: bolder;
+    color: #F5F5F5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* september **/
+
+#s-coming-soon { 
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #234786;
+    opacity: 75%;
+}
+
+#s-text { 
+    position: absolute;
+    font-family: Major Mono Display;
+    color: #F5F5F5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* good old days **/
+
+#god-coming-soon { 
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #7D834E;
+    opacity: 75%;
+}
+
+#god-text { 
+    position: absolute;
+    font-family: DM Serif Display;
+    color: #F5F5F5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* sunday best **/
+
+#sb-album-title { 
+    background-color: rgb(85, 85, 85);
+    padding: 10px;
+    position: absolute; 
+    top: 20%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Righteous;
+    color: #F5F5F5;
+    opacity: 90%
+} 
+
+#sb-album-title:hover { 
+    cursor: pointer;
+}
+
+#sb-back { 
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    background-color: #645948;
+    opacity: 75%;
+}
+
+#sb-back ul { 
+    list-style: none;
+}
+
+#sb-back li {
+    margin-top: 27px;
+}
+
+#sb-back a:hover { 
+    text-decoration: underline;
+}
+
+#sb-back a { 
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: Righteous;
+    font-size: 27px;
+}
+
+
